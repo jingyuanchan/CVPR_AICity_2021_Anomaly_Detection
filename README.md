@@ -9,14 +9,14 @@ This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity
 
 Our experiments conducted on the Track 4 testset yielded a result of 0.9302 F1-Score and 3.4039 root mean square error (RMSE), which performed 3rd place in the challenge.
 
-!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/rank.jpg)}
+!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/rank.jpg)}
 
 More implementation details are displayed in the paper—— 
 *Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing*. 
 
 Here we only show the flow chart for better understanding of the following procedures.  
 
-![Flow Chart]{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/abstract.jpg)}
+![Flow Chart]{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/abstract.jpg)}
 #### NVIDIA AICity Challenge 2021 Track4
 
 ### Requirements
@@ -150,15 +150,15 @@ TBD for CJY
 #### Multiple Vehicle Trajectory Tracing
 Statistically, vehicle crashes often come up with sharp turns, which is the primary reaction of drivers when encountering such anomalies. Here we list some typical scenarios to display that.
 
-!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/multi.jpg)}
+!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/multi.jpg)}
 
 #### Singular Vehicle Trajectory Tracing
 TBD for CJY
 
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/0.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/1.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/2.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/3.gif"/></div>
+<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/0.gif"/></div>
+<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/1.gif"/></div>
+<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/2.gif"/></div>
+<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/3.gif"/></div>
 
 
 
