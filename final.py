@@ -31,5 +31,6 @@ for key in fuse_res:
 
     f_output.write(str(key)+" "+str(fuse_res[key][0])+" "+str(1)+"\n")
 
+    
 f_output.close()
 
