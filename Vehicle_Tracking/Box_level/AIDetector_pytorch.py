@@ -18,7 +18,6 @@ class Detector(baseDet):
 
     def init_model(self):
 
-        #self.weights = 'weights/yolov5l.pt'
         self.weights ='/content/drive/MyDrive/Colab Notebooks/yolov5/weights/best.pt'
         self.txt_file=open(self.txt_dir,mode='w')
         self.device = '0' if torch.cuda.is_available() else 'cpu'

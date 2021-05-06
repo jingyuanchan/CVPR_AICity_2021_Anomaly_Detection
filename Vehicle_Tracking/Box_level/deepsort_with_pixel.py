@@ -24,6 +24,7 @@ def compute_iou(rec1, rec2):
 def main():
   base_dir='./Forward_track/'
   file_list=os.listdir(base_dir)
+  #based on filtered anomaly video
   video_list=[7,9,11,23,26,33,34,35,36,40,41,43,44,45,48,49,50,67,70,72,73,74,80,86,89,91,92,99,104,105,109,119,120,124,132,133,134,137,139,144,146,148]
   #video_list=[7]
   result2store=[]
@@ -35,7 +36,7 @@ def main():
       if len(frame_result):
         for i in frame_result:
           all_cars_tracked.append(i[5])
-    #统计id的出现次数，减少检测目标
+ 
     from collections import Counter
     count_id=dict(Counter(all_cars_tracked).most_common(20))
 
@@ -43,7 +44,6 @@ def main():
 
     new_id={}
 
-    #给每个id创建dict储存帧数和相应bounding box
     for frame_result in enumerate(all_result):
       if len(frame_result[1]):
         for box in frame_result[1]:
@@ -86,7 +86,7 @@ def main():
       
     mid_id={}
 
-    #开始后处理，eliminate unstable tracking result base on the time
+    #eliminate unstable tracking result base on the time
     for key in combine_id.keys():
       time_stamp=combine_id[key]['frame']
       boxes=combine_id[key]['box']
