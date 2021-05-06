@@ -42,7 +42,6 @@ f_final=open(output,"w")
 
 final = []
 
-
 # load deepsort tracking branch
 deep_psnr,_=load_deepsort(deepsort_path1)
 deep_ssim,num_count=load_deepsort(deepsort_path2)
