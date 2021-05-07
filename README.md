@@ -20,12 +20,8 @@ Here we only show the flow chart for better understanding of the following proce
 #### NVIDIA AICity Challenge 2021 Track4
 
 ### Requirements
-
 - Linux (tested on Ubuntu 16.04.5)
-- Python 3.7
-- PyTorch 
-- OpenCV
-- Scikit-Image
+- Packages (listed in the requirements.txt)
 
 ### Annotations
 TBD for CJY
