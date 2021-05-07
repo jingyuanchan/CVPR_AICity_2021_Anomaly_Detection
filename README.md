@@ -80,7 +80,7 @@ Detailed structure is shown as below.
 ```
 
 #### Detection 
-TBD for CJY
+Detection model weight: https://drive.google.com/file/d/1PK1XnRpNvWCKIxO2XOk5smnnwMIP-liq/view?usp=sharing
 
 #### Road Mask Construction
 ##### Extract Motion-Based Mask
@@ -131,7 +131,7 @@ python sync.py
 ##### ROI Backtracking for Box-Level
 
 #### Dynamic Analysis Stage
-We mainly contribute this to trace back the exact time of crashing while what's done before can only be used to locate the time when abnormal vehicles become static.
+We mainly contribute this to trace the exact time of crashing since what's done before can only be used to locate the time when abnormal vehicles become static.
 
 ##### Multiple Vehicle Trajectory Tracing
 ```
@@ -139,7 +139,7 @@ cd car_crash
 python crash_track.py
 ```
 ##### Singular Vehicle Trajectory Tracing
-TBD for CJY
+
 
 
 ### Demo
