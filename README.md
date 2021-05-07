@@ -9,7 +9,7 @@ This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity
 
 Our experiments conducted on the Track 4 testset yielded a result of 0.9302 F1-Score and 3.4039 root mean square error (RMSE), which performed 3rd place in the challenge.
 
-!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/rank.jpg)}
+!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/rank.jpg)}
 
 More implementation details are displayed in the paper—— 
 *Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing*. 
