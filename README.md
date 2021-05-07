@@ -24,7 +24,7 @@ Here we only show the flow chart for better understanding of the following proce
 - Packages (listed in the requirements.txt)
 
 ### Annotations
-TBD for CJY
+Google drive: https://drive.google.com/drive/folders/1Wk_XdqGOMSBMzRcCY1C1k_NHFKwzbHZb?usp=sharing
 
 ### Procedures
 
@@ -126,7 +126,7 @@ python sync.py
 ```
 
 #### Box-Level Tracking
-TBD for CJY
+
 ##### 
 ##### ROI Backtracking for Box-Level
 
