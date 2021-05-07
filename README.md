@@ -149,7 +149,7 @@ Statistically, vehicle crashes often come up with sharp turns, which is the prim
 !{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/multi.jpg)}
 
 #### Singular Vehicle Trajectory Tracing
-TBD for CJY
+
 
 <div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/0.gif"/></div>
 <div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/1.gif"/></div>
@@ -159,5 +159,5 @@ TBD for CJY
 
 
 ## 
-If you have any questions or issues in using this code, please feel free to
+If you have any question, please feel free to
 contact us. (jchen157@u.rochester.edu and yuchen_yang@whu.edu.cn)
