@@ -9,22 +9,40 @@ This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity
 
 Our experiments conducted on the Track 4 testset yielded a result of 0.9302 F1-Score and 3.4039 root mean square error (RMSE), which performed 3rd place in the challenge.
 
+<<<<<<< HEAD
+![rank image](./figs/rank.jpg)
+<p align="center">Fig1  Rank of our team</p>
+
+=======
 !{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/blob/main/figs/rank.jpg)}
+>>>>>>> 818e3a93f7e4328098db07725e499530403d8f80
 
 More implementation details are displayed in the paper—— 
-*Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing*. 
+*Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing* 
 
+The paper link will be added after CVPRW2021. 
 Here we only show the flow chart for better understanding of the following procedures.  
 
-![Flow Chart]{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/abstract.jpg)}
-#### NVIDIA AICity Challenge 2021 Track4
+![Flow Chart](figs/abstract.png)
+<p align="center">Fig2  Flow Chart</p>
 
+<<<<<<< HEAD
+## Our Solution for NVIDIA AICity Challenge 2021 Track4
+
+=======
+>>>>>>> 818e3a93f7e4328098db07725e499530403d8f80
 ### Requirements
 - Linux (tested on Ubuntu 16.04.5)
 - Packages (listed in the requirements.txt)
 
 ### Annotations
+<<<<<<< HEAD
+We have annotated <font color=red>2</font> images selected from training dataset, including <font color=red>5</font> bbx. We manually divided these annotation files into the training set(<font color=red>1 image 3 bbx</font>) and test set(<font color=red>1 image 2 bbx</font>).
+
+Annotations link: [Google drive](https://drive.google.com/drive/folders/1Wk_XdqGOMSBMzRcCY1C1k_NHFKwzbHZb?usp=sharing)
+=======
 Google drive: https://drive.google.com/drive/folders/1Wk_XdqGOMSBMzRcCY1C1k_NHFKwzbHZb?usp=sharing
+>>>>>>> 818e3a93f7e4328098db07725e499530403d8f80
 
 ### Procedures
 
@@ -80,7 +98,11 @@ Detailed structure is shown as below.
 ```
 
 #### Detection 
+<<<<<<< HEAD
+[Detection model weight](https://drive.google.com/file/d/1PK1XnRpNvWCKIxO2XOk5smnnwMIP-liq/view?usp=sharing)
+=======
 Detection model weight: https://drive.google.com/file/d/1PK1XnRpNvWCKIxO2XOk5smnnwMIP-liq/view?usp=sharing
+>>>>>>> 818e3a93f7e4328098db07725e499530403d8f80
 
 #### Road Mask Construction
 ##### Extract Motion-Based Mask
@@ -146,15 +168,20 @@ python crash_track.py
 #### Multiple Vehicle Trajectory Tracing
 Statistically, vehicle crashes often come up with sharp turns, which is the primary reaction of drivers when encountering such anomalies. Here we list some typical scenarios to display that.
 
-!{(https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/multi.jpg)}
+![multi](./figs/multi.png)
 
 #### Singular Vehicle Trajectory Tracing
+<<<<<<< HEAD
+=======
+
+>>>>>>> 818e3a93f7e4328098db07725e499530403d8f80
 
 
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/0.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/1.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/2.gif"/></div>
-<div align=center><img width="400" height="205" src="https://github.com/JingyuanChen1423/AICity_2021_Anomaly_Detection/figs/3.gif"/></div>
+
+<div align=center><img width="640" height="330" src="./figs/0.gif"/></div>
+<div align=center><img width="640" height="330" src="./figs/1.gif"/></div>
+<div align=center><img width="640" height="330" src="./figs/2.gif"/></div>
+<div align=center><img width="640" height="330" src="./figs/3.gif"/></div>
 
 
 
