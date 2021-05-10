@@ -29,7 +29,7 @@ Here we only show the flow chart for better understanding of the following proce
 - Packages (listed in the requirements.txt)
 
 ### Annotations
-We have annotated <font color=red>2</font> images selected from training dataset, including <font color=red>5</font> bbx. We manually divided these annotation files into the training set(<font color=red>1 image 3 bbx</font>) and test set(<font color=red>1 image 2 bbx</font>).
+We have annotated <font color=red>3657</font> images selected from training dataset. The training set and testing set are randomly split at the ratio of 4:1. The link for annotation is included as follows.
 
 Annotations link: [Google drive](https://drive.google.com/drive/folders/1Wk_XdqGOMSBMzRcCY1C1k_NHFKwzbHZb?usp=sharing)
 
@@ -87,8 +87,7 @@ Detailed structure is shown as below.
 ```
 
 #### Detection 
-[Detection model weight](https://drive.google.com/file/d/1PK1XnRpNvWCKIxO2XOk5smnnwMIP-liq/view?usp=sharing)
-
+For detection model training instruction, please view the [official yolov5 repo](https://github.com/ultralytics/yolov5)
 #### Road Mask Construction
 ##### Extract Motion-Based Mask
 ``` 
