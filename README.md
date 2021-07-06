@@ -163,8 +163,19 @@ Statistically, vehicle crashes often come up with sharp turns, which is the prim
 <div align=center><img width="640" height="330" src="./figs/2.gif"/></div>
 <div align=center><img width="640" height="330" src="./figs/3.gif"/></div>
 
+### Citation
 
+```
+@InProceedings{Chen_2021_CVPR,
+    author    = {Chen, Jingyuan and Ding, Guanchen and Yang, Yuchen and Han, Wenwei and Xu, Kangmin and Gao, Tianyi and Zhang, Zhe and Ouyang, Wanping and Cai, Hao and Chen, Zhenzhong},
+    title     = {Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2021},
+    pages     = {4016-4025}
+}
 
+```
 ## 
 If you have any question, please feel free to
 contact us. (jchen157@u.rochester.edu and yuchen_yang@whu.edu.cn)
