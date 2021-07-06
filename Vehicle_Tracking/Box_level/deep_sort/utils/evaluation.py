@@ -1,7 +1,9 @@
-import os
-import numpy as np
 import copy
+import os
+
 import motmetrics as mm
+import numpy as np
+
 mm.lap.default_solver = 'lap'
 from utils.io import read_results, unzip_objs
 
