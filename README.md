@@ -3,6 +3,12 @@
 
 ## Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing (CVPRW 2021)
 
+[Paper Link](https://openaccess.thecvf.com/content/CVPR2021W/AICity/papers/Chen_Dual-Modality_Vehicle_Anomaly_Detection_via_Bilateral_Trajectory_Tracing_CVPRW_2021_paper.pdf)
+
+[Paper-with-code](https://paperswithcode.com/paper/dual-modality-vehicle-anomaly-detection-via)
+
+[ArXiv Link to the Paper](https://arxiv.org/abs/2106.05003)
+
 
 ### Introduction
 This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity 2021 Challenge.
