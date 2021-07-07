@@ -44,11 +44,11 @@ python ex_bg_mog.py
 
 #### Preparation For Detection 
 ##### Structure of *PreData* Folder
-The orginal videos and the their frames are put under `../PreData/Origin-Test` and `../PreData/Origin-Frame` folders, respectively. And the background modeling results are put under `../PreData/Forward-Bg-Frame` folder.
+The original videos and their frames are put under `../PreData/Origin-Test` and `../PreData/Origin-Frame` folders, respectively. And the background modeling results are placed under the `../PreData/Forward-Bg-Frame` folder.
 
-All these files are organized for the Detect Step later and then the detection results based on background modeling will be saved under  `../PreData/Bg-Detect-Result/Forward_full` for each videos while `../PreData/Bg-Detect-Result/Forward` is saved in frames seperated from full videos.
+All these files are organized for the Detect Step later. Then the detection results based on background modeling will be saved under  `../PreData/Bg-Detect-Result/Forward_full` for each video while `../PreData/Bg-Detect-Result/Forward` is kept in frames separated from full videos.
 
-Detailed structure is shown as below.
+The detailed structure is shown below.
 ``` 
 ├── Bg-Detect-Result
 │   ├── Forward
