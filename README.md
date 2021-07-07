@@ -5,9 +5,9 @@
 
 
 ### Introduction
-This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity 2021 Chellenge.
+This is the source code for Team WHU_IIP for track 4 Anomaly Detection in AICity 2021 Challenge.
 
-Our experiments conducted on the Track 4 testset yielded a result of 0.9302 F1-Score and 3.4039 root mean square error (RMSE), which performed 3rd place in the challenge.
+Our experiments conducted on the Track 4 testset yielded a result of 0.9302 F1-Score, and 3.4039 root mean square error (RMSE), which performed 3rd place in the challenge.
 
 ![rank image](./figs/rank.jpg)
 <p align="center">Fig1  Rank of our team</p>
@@ -17,7 +17,7 @@ More implementation details are displayed in the paper——
 *Dual-Modality Vehicle Anomaly Detection via Bilateral Trajectory Tracing* 
 
 The paper link will be added after CVPRW2021. 
-Here we only show the flow chart for better understanding of the following procedures.  
+Here we only show the flow chart for a better understanding of the following procedures.  
 
 ![Flow Chart](figs/abstract.png)
 <p align="center">Fig2  Flow Chart</p>
