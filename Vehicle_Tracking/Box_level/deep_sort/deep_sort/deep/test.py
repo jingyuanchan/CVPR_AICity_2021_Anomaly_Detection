@@ -1,9 +1,9 @@
+import argparse
+import os
+
 import torch
 import torch.backends.cudnn as cudnn
 import torchvision
-
-import argparse
-import os
 
 from model import Net
 

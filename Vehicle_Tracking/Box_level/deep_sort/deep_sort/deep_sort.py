@@ -2,11 +2,10 @@ import numpy as np
 import torch
 
 from .deep.feature_extractor import Extractor
+from .sort.detection import Detection
 from .sort.nn_matching import NearestNeighborDistanceMetric
 from .sort.preprocessing import non_max_suppression
-from .sort.detection import Detection
 from .sort.tracker import Tracker
-
 
 __all__ = ['DeepSort']
 

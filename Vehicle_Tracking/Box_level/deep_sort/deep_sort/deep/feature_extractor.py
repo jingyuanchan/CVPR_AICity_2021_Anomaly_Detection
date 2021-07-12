@@ -1,10 +1,12 @@
-import torch
-import torchvision.transforms as transforms
-import numpy as np
-import cv2
 import logging
 
+import cv2
+import numpy as np
+import torch
+import torchvision.transforms as transforms
+
 from .model import Net
+
 
 class Extractor(object):
     def __init__(self, model_path, use_cuda=True):
